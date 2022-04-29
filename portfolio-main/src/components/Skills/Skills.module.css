@@ -1,0 +1,341 @@
+.skillsBanner{
+    height:20vh;
+    width: 100%;
+    text-align:center;
+    /* background-color: #F7EDEA; */
+    /* background-color: white; */
+    color: rgb(16,135,235);
+    /* box-shadow: 0px 5px 20px 15px #faf7d1 inset; */
+    display: grid;
+    grid-template-columns: 10% 10%;
+    justify-content: center;
+    align-items: center;
+    /* grid-gap:-50px; */
+    /* border-bottom: 2px solid #f1e422; */
+    
+
+}
+
+.skillsBanner > img{
+    width: 45%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+.skillsDetails{
+    /* background-color: #FFFFFF; */
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: 3% auto 1%;
+    /* box-shadow: 0px 5px 15px 5px #bbbbbb; */
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 2.5% 0 0 2.5%;
+
+}
+
+.skillsBanner h1{
+    margin:0;
+    /* width: fit-content; */
+    /* background-color: white; */
+    /* position: absolute; */
+    /* top: 80%;
+    left: 45%; */
+    font-size: 45px;
+    /* letter-spacing: 5px; */
+    /* font-family:'Rubik', sans-serif; */
+    /* font-family: 'Bona Nova', serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.frontEnd, .backend{
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13% 13% ;
+    height: 30vh;
+    /* background-color: rgb(243, 239, 239); */
+    /* background-color: #EFF6F9; */
+    /* background-color: #FFFFFF; */
+    /* border-radius: 20%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 13%;
+
+}
+
+.backend{
+    grid-template-columns: 13% 13% 13% 13%;
+}
+
+.frontEnd>div, .backend>div{
+    cursor: pointer;
+    width: 55%;
+    height: 15vh;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    border-radius: 10%;
+     margin-bottom: 10%;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:15px;
+}
+.frontEnd>div:hover, .backend>div:hover{
+    transform: scale(1.1); 
+   box-shadow: rgb(16,135,235) 0px 2px 8px 0px;
+    transition: transform 330ms ease-in-out;
+    cursor: pointer;
+}
+.frontEnd p, .backend p{
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    padding-top: 7%;
+}
+
+.frontEnd>div img , .backend>div img{
+  width: 90%;
+  height: 12vh;
+  margin: 0px auto;
+  /* background-color: lightgreen; */
+}
+
+.down{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .skillsBanner > img{
+        width: 47%;
+        height: 50%;
+        margin-left: 20%;
+    }
+     .frontEnd>div img , .backend>div img{
+        width: 80%;
+        height: 10vh;
+        margin: 0px auto;
+      }
+  
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+    .skillsBanner >img{
+        width: 65%;
+        height: 50%;
+        margin-left: 50%;
+    }
+
+    .frontEnd>div, .backend>div{
+        width: 64%;
+        height: 15vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+    }
+
+    .frontEnd>div img , .backend>div img{
+        /* width: 100%; */
+        height: 10vh;
+        margin: 0px auto;
+      }
+}
+@media only screen and (min-width: 790px) and (max-width: 991px) {
+    .skillsBanner >img{
+        width: 65%;
+        height: 40%;
+        margin-left: 70%;
+    }
+
+    .frontEnd>div, .backend>div{
+        width: 60%;
+        height: 15vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+    }
+
+     .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 9vh;
+        margin: 0px auto;
+      }
+}
+
+@media only screen and (min-width : 600px) and (max-width: 789px) {
+
+    .skillsBanner >img{
+        width: 55px;
+        height: 40%;
+        margin-left: 70px;
+    }
+    .frontEnd, .backend{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 70vh;
+        grid-template-rows: 20% 30%;
+        /* background-color: rgb(243, 239, 239); */
+        /* background-color: #EFF6F9; */
+        /* background-color: #FFFFFF; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .down{
+        display: none;
+    }
+
+    /* .frontEnd>div, .backend>div{
+        width: 25%;
+        margin: 0px auto;
+        height: 15vh;
+
+    } */
+
+    .frontEnd>div, .backend>div{
+        width: 25%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 75%;
+        height: 7vh;
+        margin: 0px auto;
+      }
+    
+    .skillsDetails{
+        /* background-color: #FFFFFF; */
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: 3% auto 5%;
+        /* box-shadow: 0px 5px 15px 5px #bbbbbb; */
+        padding-bottom: 15%;
+    }
+    /* .skillsDetails img{
+        height: 20vh;
+    } */
+}
+
+@media only screen and (max-width: 600px){
+
+    .skillsBanner{
+        grid-template-columns:  30% 10%;
+
+    }
+
+    .skillsBanner h1{
+        font-size: 35px;
+    }
+    .skillsBanner >img{
+        width: 55px;
+        height: 40%;
+        /* margin-left: 70px; */
+    }
+    .frontEnd, .backend{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 70vh;
+        grid-template-rows: 20% 30%;
+        /* background-color: rgb(243, 239, 239); */
+        /* background-color: #EFF6F9; */
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .down{
+        display: none;
+    }
+
+    /* .frontEnd>div, .backend>div{
+        width: 40%;
+        margin: 0px auto;
+        height: 12vh;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 9vh;
+        margin: 0px auto;
+      } */
+
+      .frontEnd>div, .backend>div{
+        width: 25%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 7vh;
+        margin: 0px auto;
+      }
+    
+    .skillsDetails{
+        background-color: #FFFFFF;
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: 3% auto 5%;
+        box-shadow: 0px 5px 15px 5px #bbbbbb;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .skillsBanner >img{
+        width: 40px;
+        height: 30%;
+        margin-left: 15px;
+    }
+
+    .frontEnd>div, .backend>div{
+        width: 30%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 12px;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 7vh;
+        margin: 0px auto;
+      }
+
+  
+}
