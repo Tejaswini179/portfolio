@@ -164,7 +164,7 @@
   left: 10%;
   border-radius: 58%;
   /* border: 2px solid rgb(16,135,235); */
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: #1467ac 0px 2px 10px;
 }
 
 .profile__icons {
