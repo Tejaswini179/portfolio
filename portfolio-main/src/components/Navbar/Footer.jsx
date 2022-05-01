@@ -28,7 +28,7 @@ const Footer = () => {
       </h1>
 
       <h3>Email:  khengaretejaswini@gmail.com</h3>
-      <h3>Call : +91 7875439287</h3>
+      <h3>Phone : +91 7875439287</h3>
 
       <div>
         <a
