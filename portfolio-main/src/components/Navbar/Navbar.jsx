@@ -5,12 +5,12 @@ import styles from "./Navbar.module.css"
 
 const Navbar=()=>{
     return(
-        <div className={styles.navbar_back}>
+        <header className={styles.navbar_back}>
 
           <div className={styles.navbar_flex2}>
 
             <div>
-<a style={{color:"white", textDecoration:"none"}} href="https://drive.google.com/file/d/1KSbc1GxfN5JwZ_8qkCh836qx5S5zSiIA/view?usp=sharing">Resume</a>
+<a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://drive.google.com/file/d/1KSbc1GxfN5JwZ_8qkCh836qx5S5zSiIA/view?usp=sharing" >Resume</a>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ const Navbar=()=>{
              {/* <div> <NavLink to="/contact" className={styles.text_link}>Contact</NavLink>  </div> */}
           </div>
 
-        </div>
+        </header>
 
     )
 

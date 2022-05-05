@@ -3,16 +3,23 @@
     width: 100%;
     height: 10vh;
     /* padding: 20px; */
-    font-size: 20px;
+    font-size: 25px;
     display: grid;
     grid-template-columns: 20% 80%;
     /* border: 1px solid black; */
     grid-template-areas: 'flex2 flex1';
     background: rgb(16,135,235);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* position: fixed; */
     /* position: fixed;
     overflow: hidden; */
+    backdrop-filter: blur(5px);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
+
 
 .navbar_flex1{
     display: flex;
@@ -37,13 +44,29 @@
 .text_link{
     text-decoration: none;
     color: white;  
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; /* Used in this example to enable scrolling */
+
 }
 
 .navbar_flex2>div{
     margin-top: 20px;
     /* background: chocolate; */
 }
-
+/* .navbar_back a{
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar_back a:hover {
+    background: #ddd;
+    color: black;
+  } */
 @media only screen and (min-width : 600px) and (max-width: 789px){
     .navbar_flex2{
         font-size: 12px;
@@ -60,10 +83,11 @@
         height: 10vh;
         /* padding: 20px; */
         display: grid;
-        /* grid-template-columns: 10px 50px; */
+        /* grid-template-columns: 10px 10px 10px ; */
         /* border: 1px solid black; */
         grid-template-areas: 'flex2 flex1';
-        background: white; 
+        /* background: white;  */
+        font-size: 10px;
         
     }
     .navbar_flex2{
@@ -82,9 +106,10 @@
     .navbar_flex1 > div{
         width: fit-content;
         padding: 0;
-        padding-right: 15px;
+        padding-right: 5px;
         margin: 20px 0 0 20px;
-        /* margin-right: 0; */
+        font-size: 11px;
+        margin-left: 5px;
     }
 
 

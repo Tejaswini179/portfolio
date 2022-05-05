@@ -12,15 +12,15 @@ const Project=()=>{
 
         <div id="projects" className={styles.projectBanner} data-aos = 'zoom-in' data-aos-duration="1000">
 
-        <h1 data-aos = 'flip-up' data-aos-duration="1500" style={{color:"rgb(16,135,235)"}}>Projects</h1>
+        <h1 className={styles.proh1} data-aos = 'flip-up' data-aos-duration="1500" style={{color:"rgb(16,135,235)"}}>Projects</h1>
         </div>
 
         {/* Dunzo CLONE */}
           <div className={styles.toi} 
           data-aos="fade-up" 
-          data-aos-offset="120"
-            data-aos-delay="800"
-            data-aos-duration="800"
+          data-aos-offset="50"
+            data-aos-delay="50"
+            data-aos-duration="750"
             data-aos-easing="ease-in-out">
               <div>
                   <h1>Dunzo - Clone Project</h1>
@@ -65,9 +65,9 @@ const Project=()=>{
           {/* Revv CLONE */}
           <div className={styles.toi} 
           data-aos="fade-up" 
-          data-aos-offset="120"
-            data-aos-delay="800"
-            data-aos-duration="800"
+          data-aos-offset="50"
+            data-aos-delay="150"
+            data-aos-duration="500"
             data-aos-easing="ease-in-out">
               <div>
                   <h1>Dunzo - Clone Project</h1>

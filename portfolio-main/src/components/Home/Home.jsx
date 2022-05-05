@@ -33,7 +33,7 @@ const Home=()=>{
 
                         {/* JavaScript / Reactjs /Nodejs/ MongoDb  */}
                         <div>
-                        <TextAnimation />
+                        <TextAnimation  />
                         </div>
                         
                          {/* <br/> */}
@@ -80,7 +80,7 @@ const Home=()=>{
                        
                     </div>
 
-                    <div  className={styles.profile__details}data-aos = 'zoom-in-right' data-aos-offset="250" data-aos-duration="1000" >
+                    <div  className={styles.profile__details}data-aos = 'zoom-in-right' data-aos-offset="250" data-aos-duration="900" >
                         <h1 className='about'> About Me</h1>
                         <div> A passionate Full Stack Web Developer an enthusiastic individual with a zeal to learn, explore and grow.
 
