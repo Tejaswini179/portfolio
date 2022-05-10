@@ -65,14 +65,15 @@ const Home=()=>{
                         <AiOutlineMedium/>
                         </a>
                         </div> */}
-
+                        <div id="about"></div>
                      
             </div>
 
            </div>
         </div>
 
-        <div id="about" className={styles.homeTopBanner1} data-aos = 'fade-in' data-aos-offset="200" data-aos-duration="1000" >
+<br></br><br></br><br></br>
+        <div  className={styles.homeTopBanner1} data-aos = 'fade-in' data-aos-offset="200" data-aos-duration="1000" >
             <div className={styles.profile} >
                     <div className={styles.profile__pic__border} data-aos = 'zoom-in-left' data-aos-offset="250" data-aos-duration="1000">   
                         <img className={styles.profile__pic} src='profile.png' alt='home image'/>
@@ -103,7 +104,7 @@ const Home=()=>{
         </div> */}
         
         <Skills />
-        
+        <br></br>
         <Project/>
 
         </>
