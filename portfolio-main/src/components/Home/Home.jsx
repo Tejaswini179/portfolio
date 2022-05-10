@@ -82,7 +82,7 @@ const Home=()=>{
 
                     <div  className={styles.profile__details}data-aos = 'zoom-in-right' data-aos-offset="250" data-aos-duration="900" >
                         <h1 className='about'> About Me</h1>
-                        <div> A passionate Full Stack Web Developer an enthusiastic individual with a zeal to learn, explore and grow.
+                        <div > A passionate Full Stack Web Developer an enthusiastic individual with a zeal to learn, explore and grow.
 
                   I love designing websites and I am looking for more opportunities to work in coding that would help to showcase my skills and enhance my career.
 
@@ -101,7 +101,9 @@ const Home=()=>{
                 <h1 className={styles.timeLine__h1}>{`Timeline`}</h1>
                     <TimeLineComponent/>
         </div> */}
-        <Skills/>
+        
+        <Skills />
+        
         <Project/>
 
         </>

@@ -14,7 +14,8 @@ const Skills=()=>{
     return(
         <>
 
-          <div id = "skills">
+<div id = "skills"></div>
+<br></br>
 
               <div  className={styles.skillsBanner} data-aos = 'zoom-in' data-aos-duration="1000" >
 
@@ -139,7 +140,7 @@ const Skills=()=>{
       
                   </div>
                 </div> */}
-          </div>
+          
         </>
     )
 }

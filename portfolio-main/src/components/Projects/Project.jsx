@@ -9,8 +9,9 @@ const Project=()=>{
     },[])
     return(
         <>
-
-        <div id="projects" className={styles.projectBanner} data-aos = 'zoom-in' data-aos-duration="1000">
+        <div id="projects"></div>
+          <br></br>
+        <div  className={styles.projectBanner} data-aos = 'zoom-in' data-aos-duration="1000">
 
         <h1 className={styles.proh1} data-aos = 'flip-up' data-aos-duration="1500" style={{color:"rgb(16,135,235)"}}>Projects</h1>
         </div>
