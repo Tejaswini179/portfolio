@@ -40,7 +40,7 @@ const Project=()=>{
                       </div>
                   </p>
                   
-                  <div>Tools : Html | CSS | JavaScript | MongoDb | express</div><br></br>
+                  <div>Tech Stack : Html | CSS | JavaScript | MongoDb | express</div><br></br>
                   <div>
                       <button>
                         <a href='https://dunzo-backend.netlify.app/' target="_blank" rel="noreferrer">
@@ -88,7 +88,7 @@ const Project=()=>{
                       </div>
                   </p>
                   
-                  <div>Tools : Html | CSS | JavaScript </div><br></br>
+                  <div>Tech Stack : Html | CSS | JavaScript </div><br></br>
                   <div>
                       <button>
                         <a href='https://revv-car-rentalsclone.netlify.app/' target="_blank" rel="noreferrer">
@@ -106,6 +106,54 @@ const Project=()=>{
               
               <div>
                 <img src='rev.png' alt='Dunzo'/>
+              </div>
+
+          </div>
+
+
+              {/* Meesho CLONE */}
+          <div className={styles.toi} 
+          data-aos="fade-up" 
+          data-aos-offset="50"
+            data-aos-delay="150"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out">
+              <div>
+                  <h1>Meesho - Clone Project</h1>
+                  <p>
+                  
+                     
+                      <div>Features :</div>
+                      <div>
+                      Meesho is an online Shopping website.
+                     <br></br>
+                      A collabrative project build in just 5 days by team of 6. We tried to build Rev clone. Features of website are Signup, Login, Sorting, Filter, Popup window, Navigation bar, Mapping of objects, Stored data in local storage.
+                          {/* <ul>
+                              <li>A collaborative project built by a team of 3,executed in a week.</li> 
+                               <li>Users can register and login to the website,read, post, search, and sort news.</li>
+                                <li>Users can remove backgroundadvertisements, comment on the newsarticle, and calculate tax.</li>                   
+                          </ul> */}
+                      </div>
+                  </p>
+                  
+                  <div>Tech Stack : React | Redux | JavaScript | Material UI </div><br></br>
+                  <div>
+                      <button>
+                        <a href='https://meesho-project-six.vercel.app/' target="_blank" rel="noreferrer">
+                                DEMO
+                        </a>
+                     </button>
+                     
+                      <button>
+                      <a href='https://github.com/Tejaswini179/Meesho_Project' target="_blank" rel="noreferrer">
+                      VIEW CODE
+                        </a>
+                    </button>
+                  </div>
+              </div>
+              
+              <div>
+                <img src='meesho.png' alt='Dunzo'/>
               </div>
 
           </div>
