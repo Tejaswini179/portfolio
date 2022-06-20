@@ -79,7 +79,7 @@ const Project=()=>{
                       <div>
                       Revv is an online car booking website.
  <br></br>
-                      A collabrative project build in just 5 days by team of 4. We tried to build Rev clone. Features of website are Signup, Login, Sorting, Filter, Popup window, Navigation bar, Mapping of objects, Stored data in local storage.
+                      A collabrative project build in just 5 days by team of 4. We tried to build Rev clone. Features of website are Signup, Login, Sorting, Filter, Popup window, Navigation bar, Mapping of objects, Stored data in local storage .
                           {/* <ul>
                               <li>A collaborative project built by a team of 3,executed in a week.</li> 
                                <li>Users can register and login to the website,read, post, search, and sort news.</li>
@@ -127,7 +127,7 @@ const Project=()=>{
                       <div>
                       Meesho is an online Shopping website.
                      <br></br>
-                      A collabrative project build in just 5 days by team of 6. We tried to build Rev clone. Features of website are Signup, Login, Sorting, Filter, Popup window, Navigation bar, Mapping of objects, Stored data in local storage.
+                      A collabrative project build in just 5 days by team of 6. We tried to build Meesho clone. Features of website are Signup, Navigation bar, product pagess, supplier page, add to cart functionality and payment.
                           {/* <ul>
                               <li>A collaborative project built by a team of 3,executed in a week.</li> 
                                <li>Users can register and login to the website,read, post, search, and sort news.</li>
