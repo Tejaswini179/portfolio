@@ -10,7 +10,7 @@ const Navbar=()=>{
           <div className={styles.navbar_flex2}>
 
             <div>
-<a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://drive.google.com/file/d/1KSbc1GxfN5JwZ_8qkCh836qx5S5zSiIA/view?usp=sharing" >Resume</a>
+<a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://drive.google.com/file/d/1oP-qqUpAvzDJYNYMlxyhI_2YaItlCNEz/view?usp=sharing" >Resume</a>
             </div>
           </div>
 
