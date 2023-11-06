@@ -9,12 +9,19 @@ const Navbar=()=>{
 
           <div className={styles.navbar_flex2}>
 
-            <div>
-<a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://drive.google.com/file/d/1oP-qqUpAvzDJYNYMlxyhI_2YaItlCNEz/view?usp=sharing" >Resume</a>
+            <div id='home'>
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href="https://drive.google.com/uc?export=download&id=1mTnL5Z1LgeJhFaPUFgMdfknTuaZU3DaO"
+              download="YourResume.pdf"
+            >
+              Resume
+            </a>
             </div>
           </div>
 
           <div className={styles.navbar_flex1}>
+          <div > <NavLink to="#home" className={styles.text_link} activeStyle={{color:'black'}} exact>Home</NavLink>  </div>
              <div > <NavLink to="#about" className={styles.text_link} activeStyle={{color:'black'}} exact>About</NavLink>  </div>
              <div> <NavLink to="#skills"  className={styles.text_link} activeStyle={{color:'black'}}>Skills</NavLink>  </div>
              <div> <NavLink to="#projects" className={styles.text_link} activeStyle={{color:'black'}}>Projects</NavLink> </div>

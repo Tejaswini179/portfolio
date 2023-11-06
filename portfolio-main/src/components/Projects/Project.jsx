@@ -28,10 +28,14 @@ const Project=()=>{
                   <p>
                   
                      
-                      <div>Features :</div>
+                      
                       <div>
-                      Dunzo is an Indian company that delivers groceries and essentials, fruits and vegetables. <br></br>
-                      A collabrative project build in just 5 days by team of 4. We tried to build dunzo clone. we have created Fruits and vegatables page. and build add to cart functionality and payment.  
+                      Cloned the Dunzo web Application that provides services for
+                       delivering fruits and groceries and goods.
+                       <pre></pre>           
+                       <div>Features :</div>
+                       ❖ Sign-in ❖ Navigation bar ❖ Add to Cart functionality ❖ Checkout
+                       functionality
                           {/* <ul>
                               <li>A collaborative project built by a team of 3,executed in a week.</li> 
                                <li>Users can register and login to the website,read, post, search, and sort news.</li>
@@ -78,11 +82,14 @@ const Project=()=>{
                   <p>
                   
                      
-                      <div>Features :</div>
+             
                       <div>
-                      Meesho is an online Shopping website.
+                      Meesho is an Online Shopping & Reselling site in India - Buy & Sell best quality Fashion, Electronics, Home & Kitchen products at lowest prices.
+                      <pre></pre>
                      <br></br>
-                      A collabrative project build in just 5 days by team of 6. We tried to build Meesho clone. Features of website are Signup, Navigation bar, product pagess, supplier page, add to cart functionality and payment.
+                      <div>Features :</div>
+                       ❖ Sign-in ❖ Navigation bar ❖ Add to Cart functionality ❖ Checkout
+                       functionality
                           {/* <ul>
                               <li>A collaborative project built by a team of 3,executed in a week.</li> 
                                <li>Users can register and login to the website,read, post, search, and sort news.</li>
@@ -112,6 +119,50 @@ const Project=()=>{
               </div>
 
           </div>
+      
+
+<div className={styles.toi}
+data-aos="fade-up" 
+data-aos-offset="120"
+  // data-aos-delay="800"
+  data-aos-duration="800"
+  data-aos-easing="ease-in-out">
+    <div>
+        <h1>Tic-Tac-Toe Game</h1>
+        <p>
+          
+            A simple tic tac toe game.
+            <pre></pre>
+            <div>Features :</div>
+            <div>
+                
+                ❖ The game is played on a grid that's 3 squares by 3 squares. 
+                ❖ Players take turns putting their marks in empty squares. 
+                ❖ The first player to get 3 of her marks in a row is the winner. 
+                ❖ When all 9 squares are full, the game is over. 
+                
+            </div>
+        </p>
+        <div>Tech Stack : React | CSS | JavaScript </div>
+        <div>
+              <button>
+              <a href='https://tic-tac-toe-five-psi.vercel.app/' target="_blank" rel="noreferrer">
+                      DEMO
+              </a>
+           </button>
+            <button>
+               <a href='https://github.com/Tejaswini179/TIC-TAC-TOE' target="_blank" rel="noreferrer">
+                   VIEW CODE
+                </a>
+            </button>
+        </div>
+    </div>
+    
+    <div>
+      <img src='tic-tac-toe.png' alt='toggl track project'/>
+    </div>
+
+</div>
 
 
 

@@ -83,11 +83,8 @@ const Home=()=>{
 
                     <div  className={styles.profile__details}data-aos = 'zoom-in-right' data-aos-offset="250" data-aos-duration="900" >
                         <h1 className='about'> About Me</h1>
-                        <div > A passionate Full Stack Web Developer an enthusiastic individual with a zeal to learn, explore and grow.
-
-                  I love designing websites and I am looking for more opportunities to work in coding that would help to showcase my skills and enhance my career.
-
-                 
+                        <div > 
+                        Motivated and efficient full-stack web developer with the ability to work in a team and individually as well. Capable of writing production-ready code using HTML, CSS, and JavaScript on the front end and MongoDB, Express, Node.js, PHP, and SQL on the backend to build any web page applications. Looking for a progressive organization that would help to showcase skills and enhance career along with organizational growth.
                         </div>
                     </div>
             </div>
