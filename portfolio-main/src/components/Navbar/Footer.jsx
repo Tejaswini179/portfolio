@@ -13,59 +13,76 @@ const Footer = () => {
  
   return (
     <div>
-    <div id="stats" style={{
+     {/* <div id="stats" style={{
+        background: "white",
         textAlign: "center",
         padding: "1%",
         margin: "0px auto",
-      }} >
-      <pre>
-      <h1 className={styles.proh1}  style={{color:"rgb(16,135,235)",fontSize: '30px', fontFamily: "'Montserrat', sans-serif"}}>Github Stats</h1>
-     </pre>
-     <pre></pre>
-      <div>
-        <img
-          id="github-top-langs"
-          src="https://github-readme-stats.vercel.app/api/top-langs?username=tejaswini179&show_icons=true&locale=en&layout=compact"
-          alt=""
-        />
+      }}>
+  <pre>
+    <h1 className={styles.proh1}  style={{
+      color: "rgb(16,135,235)",
+      fontSize: '30px',
+      fontFamily: "'Montserrat', sans-serif"
+    }}>Github Stats</h1>
+  </pre>
+  <pre></pre>
+  <div style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: '100%',
+    maxWidth: '800px', // Set your desired maximum width
+    margin: '0 auto',
+  }}>
+    <img
+      id="github-top-langs"
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=tejaswini179&show_icons=true&locale=en&layout=compact"
+      alt=""
+      style={{ width: "100%" }}
+    />
 
-        <div id="statsimg">
-          <img
-            id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=tejaswini179&show_icons=true&locale=en"
-            alt=""
-          />
-          <img
-            id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=tejaswini179"
-            alt=""
-          />
-        </div>
-      </div>
+    <div id="statsimg" style={{ width: "100%" }}>
+      <img
+        id="github-stats-card"
+        src="https://github-readme-stats.vercel.app/api?username=tejaswini179&show_icons=true&locale=en"
+        alt=""
+        style={{ width: "100%" }}
+      />
+      <img
+        id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com?user=tejaswini179"
+        alt=""
+        style={{ width: "100%" }}
+      />
     </div>
-    <div>
+  </div>
+</div> */}
+
+    {/* <div> */}
       {/* Include the script source in the HTML file where you import this component */}
       {/* Optionally, include the theme (if you don't want to struggle to write the CSS) */}
       {/* Make sure to add the CSS link in the HTML file where you import this component */}
   
 
-    </div>
-    <pre></pre>
+    {/* </div> */}
+    {/* <pre></pre>
     <pre></pre>
     <div id="stats" style={{
-        textAlign: "center",
-        padding: "1%",
-        margin: "0px auto",
-      }}>
-      <h1 className={styles.proh1}  style={{color:"rgb(16,135,235)",fontSize: '30px', fontFamily: "'Montserrat', sans-serif"}}>Github Contribution Graph</h1>
-      <div>
-      <GitHubCalendar style={{
-        textAlign: "center",
-        padding: "1%",
-        margin: "0px auto",
-      }} username="Tejaswini179" />
-      </div>
-    </div>
+  textAlign: "center",
+  padding: "1%",
+  margin: "0px auto",
+}}>
+  <h1 className={styles.proh1} style={{ color: "rgb(16,135,235)", fontSize: '30px', fontFamily: "'Montserrat', sans-serif" }}>Github Contribution Graph</h1>
+  <div style={{
+    width: '100%',
+    maxWidth: '800px', // Set your desired maximum width
+    margin: '0 auto',
+  }}>
+    <GitHubCalendar username="Tejaswini179" />
+  </div>
+</div> */}
+
     <div
       id="contact"
       style={{
